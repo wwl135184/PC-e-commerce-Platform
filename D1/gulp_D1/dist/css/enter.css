@@ -1,0 +1,198 @@
+/*网页主体部分CSS*/
+.main{
+	width:100%
+
+}
+.main .mainCenter{
+	width:980px;
+	margin:0 auto;
+    padding: 50px 0 658px 0;
+	
+}
+.main .mainCenter .mainCenter_pic{
+	float: left;
+    width: 542px;
+    padding-top: 25px;
+}
+.main .mainCenter .mainCenter_pic img{
+	width:496px;
+	height:304px;
+}
+.main .mainCenter .enter{
+	float: right;
+    width: 402px;
+    position: relative;
+    height: 458px;
+}
+.main .mainCenter .enter .enter_bg{
+	position: absolute;
+    background: url(../enter_images/login_fd.png) no-repeat;
+    width: 402px;
+    height:458px;
+    top: 0;
+    right: 0;
+    padding-top: 70px;
+    z-index: 5;
+}
+.enter .floatDiv{
+	position: absolute;
+    width: 402px;
+    top: 5px;
+    left: 36px;
+    padding: 60px 0 0 0;
+    z-index: 10;
+}
+.floatDiv .username{
+    padding:8px 0 0 0;
+}
+.floatDiv .username span{
+    font-size: 12px;
+    color: #333;
+}
+.floatDiv .username #username{
+    width: 182px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #f4f4f4;
+    border: solid 1px #acacac;
+}
+.floatDiv .hint{
+    width: 160px;
+    border: solid 1px #6bc7f0;
+    background-color: #e8f5fd;
+    color: #74797d;
+    font-weight: normal;
+    padding: 0px;
+    line-height: 18px;
+    font-size: 12px;
+    margin:1px 0 0 52px;
+    display: none;
+}
+.floatDiv .password{
+    padding:8px 0 0 11px;
+}
+.floatDiv span{
+    font-size: 12px;
+    color: #333;
+}
+.floatDiv .password span a{
+    text-decoration: underline;
+    color: #333;
+    margin-left: 10px;
+}
+.floatDiv .password #PW{
+    width: 182px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #f4f4f4;
+    border: solid 1px #acacac;
+}
+.floatDiv .hint1{
+    width:320px;
+    border: solid 1px #6bc7f0;
+    background-color: #e8f5fd;
+    color: #74797d;
+    font-weight: normal;
+    padding: 0px;
+    line-height: 18px;
+    font-size: 12px;
+    margin:1px 0 0 52px;
+    display: none;
+}
+.floatDiv .code{
+    padding:8px 0 0 0;
+}
+.floatDiv .code #importCode{
+    width:80px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #f4f4f4;
+    border: solid 1px #acacac;
+}
+.floatDiv .code #showCode{
+    text-align: center;
+    font-size: 20px;
+    color:#000;
+    line-height: 24px;
+    width:60px;
+    height: 24px;
+    background:gray;
+    border:0;
+}
+.floatDiv .code span a{
+    text-decoration: underline;
+}
+.floatDiv .hint2{
+    width:102px;
+    border: solid 1px #6bc7f0;
+    background-color: #e8f5fd;
+    color: #74797d;
+    font-weight: normal;
+    padding: 0px;
+    line-height: 18px;
+    font-size: 12px;
+    margin:1px 0 0 52px;
+    display: none;
+}
+.enter .floatDiv #enter_pic{
+	float:left;
+    margin:20px 0 0 65px;
+    width:110px;
+    height:41px;
+}
+.enter .floatDiv #remberName{
+	margin:30px 0 0 10px;
+	width:80px;
+	float:left;
+}
+.enter .floatDiv #remberName p{
+	font-size:12px;
+	display:inline-block;
+	float:right;
+}
+.enter .floatDiv #remberName #rember{
+	display:inline-block;
+	height: 15px;
+    width: 20px;
+    background: #fff;
+    border: none;
+}
+.lhdiv{
+    clear:both;
+    z-index:10;
+    background: url(../enter_images/login_lhdiv.jpg);
+    width: 332px;
+    height: 93px;
+    _width: 325px;
+    padding: 15px 0 0 5px;
+   _margin-right: 0px;
+}
+.mainCenter .lhdiv span{
+    font-size:12px;
+    color:#222;
+} 
+.mainCenter .lhdiv ul li{
+    float:left;
+    padding: 0 5px 0 5px;
+    font-size:12px;
+}
+.mainCenter .lhdiv ul li a{
+    color:#222;
+}
+.mainCenter .text{
+    z-index:10;
+}
+.mainCenter .text b{
+    font-weight: bold;
+    font-size: 12px;
+    color:red;
+    line-height: 18px;
+}
+.mainCenter .text p{
+    font-size:12px;
+    color:#222;
+}
+.mainCenter .register{
+    margin:10px 0 0 110px;
+    z-index:10;
+}

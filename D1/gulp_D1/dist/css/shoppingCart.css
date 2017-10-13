@@ -1,0 +1,299 @@
+body,div,p,span,ul,li,b,img,h5,a,input,dl,dt,dd,h1,h2,h3,h4{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:0;}
+i{font-style:normal;}
+/*网页头部CSS*/
+.head{
+	width:100%;
+	overflow:hidden;
+}
+.headCenter{
+	width:887px;
+	margin:0 auto;
+}
+.showWelcome{
+	display:block;
+	width:300px;
+	font-size:12px;
+	line-height:34px;
+	color:#222;
+	float:right;
+}
+.showWelcome a{
+	color:#8cc341;
+}
+.head .headCenter .headNav{
+	font-size:12px;
+	float: right;
+    line-height: 34px;
+}
+.head .headCenter .headNav a{
+	margin: 0 5px;
+	color: #4b4b4b;
+}
+.head .headCenter .headNav a:hover{
+	color:#f35519;
+}
+/*网页logoCSS*/
+.logo{
+	width:100%;
+	overflow:hidden;
+}
+.logo_pic{
+	width:887px;
+	margin:10px auto;
+}
+..logo_pic img{
+	display:block;
+}
+/*网页main部分*/
+.main{
+	width:100%;
+	overflow:hidden;
+}
+.main_content{
+	width: 885px;
+    border: solid 1px #c2c2c2;
+	margin:0 auto;
+	overflow:hidden;
+}
+.car_title{
+	background-color: rgb(255, 236, 242);
+    height: 40px;
+    color: rgb(62, 60, 61);
+    padding-left: 20px;
+}
+.car_title h5{
+	font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.car_tip{
+	color: #333333;
+    line-height: 60px;
+    height: 60px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-bottom: solid 1px #b33b57;
+}
+.goods_list{
+	padding-top: 2px;
+    color: #6a6a6a;
+}
+.goods_list .notCart{
+	padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.mstext{
+    padding: 10px 0 10px 15px;
+    background-color: #ffecf2;
+    border-bottom: none;
+    color:#4b4b4b;
+    font-size:12px;
+    line-height: 25px;
+}
+.haveCart{
+	padding-top: 2px;
+    color: #6a6a6a;
+    font-size:12px;
+}
+.haveCart .haveCart_type{
+	background-color: #ddd;
+    height: 36px;
+    color: #68696b;
+}
+.haveCart_type ul li{
+	float:left;
+	line-height:36px;
+}
+.haveCart_type ul .serial_number{
+	width:300px;
+	margin-left:158px;
+}
+.haveCart_type ul .specification{
+	width:100px;
+	text-align:center;
+}
+.haveCart_type ul .VIP{
+	width:80px;
+	text-align:center;
+}
+.haveCart_type ul .closing{
+	width:80px;
+	text-align:center;
+}
+.haveCart_type ul .number{
+	width:86px;
+	text-align:center;
+}
+.haveCart_type ul .Subtotal{
+	width:81px;
+	text-align:center;
+}
+.shopping_details{
+	background: #FFFDDD;
+	overflow:hidden;
+}
+.shopping_details .shopping_synthesize{
+	overflow:hidden;
+	border-bottom: dashed 1px #ccc;
+}
+.shopping_details .pic{
+	width:148px;
+	padding:16px 0 10px 10px;
+	float:left;
+	text-align:center;
+}
+.shopping_details .pic img{
+	width:70px;
+	height:70px;
+}
+.shopping_details .desc{
+	float:left;
+	width:300px;
+	height:100px;
+	line-height:20px;
+}
+.shopping_details .desc a{
+	color:blue;
+}
+.shopping_details .desc a:hover{
+	cursor:pointer;
+}
+.shopping_details .desc p{
+	margin-top:30px;
+}
+.shopping_details .color{
+	float:left;
+	width:100px;
+	line-height:100px;
+	text-align:center;
+}
+.shopping_details .VIPprice{
+	float:left;
+	width:80px;
+	line-height:100px;
+	text-align:center;
+}
+.shopping_details .closingCost{
+	float:left;
+	width:80px;
+	line-height:100px;
+	text-align:center;
+}
+.shopping_details .num{
+	width:86px;
+	float:left;
+	padding:41px 0 41px 0;
+}
+.shopping_details .num a{
+	margin-top:3px;
+	float:left;
+}
+.shopping_details .num a:hover{
+	cursor:pointer;
+}
+.shopping_details .num .j_a{
+	margin-left:20px;
+}
+.shopping_details .num input{
+	float:left;
+	width: 30px;
+    height: 15px;
+    background: #f5f5f5;
+    border: solid 1px #ccc;
+    text-align: center;
+    margin:0 2px 0 2px;
+    font-size:12px;
+}
+.shopping_details .subtotal{
+	width:75px;
+	color:red;
+	line-height:100px;
+	float:left;
+	text-align:center;
+}
+.statistics{
+	height: 40px;
+    text-align: right;
+    padding-right: 20px;
+    color: #000;
+    border-bottom: dashed 1px #CCC;
+    line-height: 40px;
+}
+.statistics .statistics_num{
+	font-size:13px;
+	font-family:bold;
+}
+.statistics .money{
+	color: #d80100;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.settle_accounts{
+	height: 40px;
+    text-align: right;
+    padding-top: 10px;
+    border-bottom: none;
+}
+.settle_accounts .empty{
+	line-height: 13px;
+	color: #325BC4;
+}
+.continue_shopping{
+	line-height: 40px;
+	margin:0 20px 0 20px;
+}
+.DLTL{
+	line-height: 40px;
+	margin:0 20px 0 0;
+}
+.settle_accounts .empty{
+	color:blue;
+}
+.settle_accounts .empty:hover{
+	cursor: pointer;
+}
+/*清空购物车成功CSS*/
+.add_success{
+	width:400px;
+	height:200px;
+	position:fixed;
+	bottom:200px;
+	right:480px;
+	z-index: 1000;
+	background: #fff;
+	border:2px solid orange;
+	display: none;
+}
+.add_success img{
+	margin:50px 0 0 25px;
+	width:100px;
+	height:100px;
+	float: left;
+}
+.add_success span{
+	width:200px;
+	font-size: 25px;
+	font-weight: 800;
+	color:orange;
+	line-height: 200px;
+	margin-left:20px;
+	float: left;
+}
+.add_success input{
+	width:50px;
+	height:40px;
+	margin-top:150px;
+	color:#fff;
+	border:0;
+	border-radius: 10px 10px;
+	background: orange;
+}
+.add_success input:hover{
+	cursor: pointer;
+}

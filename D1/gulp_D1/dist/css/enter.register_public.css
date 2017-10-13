@@ -1,0 +1,145 @@
+body,div,p,span,ul,li,b,img,h5,a,input,dl,dt,dd,h1,h2,h3,h4{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:0;}
+/*网页头部CSS*/
+.head{
+	width:100%;
+	overflow:hidden;
+}
+.head .headCenter{
+	padding-top:10px;
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.head .headCenter .backIndex{
+	width: 276px;
+    height: 83px;
+    display: inline-block;
+    float: left;
+    display: inline-block;
+    background: url(../enter_images/spring.png) no-repeat -0px -15px;
+}
+.showWelcome{
+	display:block;
+	width:300px;
+	font-size:12px;
+	line-height:34px;
+	color:#222;
+	float:right;
+}
+.showWelcome a{
+	color:#8cc341;
+}
+.head .headCenter .headNav{
+	font-size:12px;
+	float: right;
+    line-height: 34px;
+}
+.head .headCenter .headNav a{
+	margin: 0 5px;
+	color: #4b4b4b;
+}
+.head .headCenter .headNav a:hover{
+	color:#f35519;
+}
+/*网页底部footCSS*/
+.foot{
+	width:100%;
+	background:#fff;
+	overflow:hidden;
+	padding-top:10px;
+}
+.foot .footCenterTop{
+	width:1080px;
+	margin:10px auto;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	padding:0 0 20px 0;
+	overflow:hidden;
+}
+.foot .footTop{
+	width:960px;
+	margin:20px auto;
+}
+.foot .footTop .footTopt .zp{
+	display:inline-block;
+	width:160px;
+	height:50px;
+	margin-right:80px;
+	background:url(../index_images/index_iconnew.png) no-repeat 2px -76px;
+}
+.foot .footTop .footTopt .ps{
+	display:inline-block;
+	width:160px;
+	height:50px;
+	margin-right:80px;
+	background:url(../index_images/index_iconnew.png) no-repeat -159px -76px;
+}
+.foot .footTop .footTopt .aq{
+	display:inline-block;
+	width:160px;
+	height:50px;
+	margin-right:80px;
+	background:url(../index_images/index_iconnew.png) no-repeat -332px -76px;
+}
+.foot .footTop .footTopt .fw{
+	display:inline-block;
+	width:160px;
+	height:50px;
+	background:url(../index_images/index_iconnew.png) no-repeat -514px -76px;
+}
+.foot .footTopb dl{
+	float: left;
+    margin: 20px 40px 0 0;
+}
+.foot .footTopb dl dt{
+	font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.foot .footTopb dl dd{
+	font-size: 12px;
+	line-height: 24px;
+}
+.foot .footTopb dl dd a{
+	color: #818181;
+}
+.foot .footTopb dl dd:hover a{
+	color: #aa2e44;
+}
+.foot .footTopb .wx{
+	float:left;
+	width: 240px;
+    height: 125px;
+    margin-top:20px;
+    background:url(../index_images/index_iconnew.png) no-repeat 0 -343px;
+}
+.foot .footCenterBottom{
+	width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    color: #7b7b7b;
+    line-height: 24px;
+    padding-bottom:75px;
+}
+.foot .footCenterBottom p{
+	font-size:12px;
+	text-align: left;
+}
+.foot .footCenterBottom p a{
+	margin: 0 5px;
+	color: #222;
+}
+.foot .footCenterBottom p a:hover{
+	color: #aa2e44;
+}
+.foot .footCenterBottom .foot_pic a{
+	margin:0 5px;
+}
+.foot .footCenterBottom .foot_text{
+	font-size: 12px;
+	color: #222;
+}

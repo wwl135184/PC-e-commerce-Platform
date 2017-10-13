@@ -1,0 +1,177 @@
+/*网页主体部分CSS*/
+.main{
+	width:100%;
+}
+.main .register{
+	width:100%;
+}
+.top_pic{
+	position:relative;
+	margin: 0px auto;
+    width: 756px;
+    height: 76px;
+    background: url(../register_images/zc_03-2.jpg) no-repeat;
+    margin-top: 40px;
+    border:1px solid #9e9e9e;
+    border-bottom:0;
+    -webkit-box-shadow: 4px 0px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 0px 6px rgba(0,0,0,0.2);
+    box-shadow: 4px 0px 6px rgba(0,0,0,0.2);
+}
+.top_pic .have{
+	position:absolute;
+	right:170px;
+    height: 62px;
+}
+.top_pic .have1{
+	width:168px;
+	padding:12px 0 0 600px;
+    _padding:12px 0 0 600px;
+    height: 62px;
+}
+.top_pic .have a{
+	color: #fff;
+    font-size: 16px;
+}
+.top_pic .have a span{
+	line-height:62px;
+}
+.top_pic .have a img{
+	padding-top:14px;
+}
+.bottom{
+	margin: 0px auto;
+    width: 756px;
+    height: 450px;
+    border-bottom:1px solid #9e9e9e;
+    border-left:1px solid #9e9e9e;
+    border-right:1px solid #9e9e9e;
+    -webkit-box-shadow: 4px 0px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 0px 6px rgba(0,0,0,0.2);
+    box-shadow: 4px 0px 6px rgba(0,0,0,0.2);
+}
+.bottom h3{
+    font-size: 16px;
+    line-height: 22px;
+    color: #d1436b;
+    font-weight: bold;
+    padding:20px 0 30px 10px;
+}
+.bottom span{
+    color: #333;
+    font-size: 14px;
+    line-height: 22px; 
+}
+.bottom .phone{
+    margin-left:85px;
+    width:325px;
+}
+
+.bottom .phone #phone{
+    width: 220px;
+    border: solid 1px #ababab;
+    background-color: #f4f4f4;
+    height: 22px;
+}
+.bottom .code{
+    margin-left:163px;
+    padding:7px 0 7px 0; 
+}
+.bottom .code #showCode{
+    width:75px;
+    height:31px;
+    border:0;
+    background:#eee;
+    font-size: 20px;
+    text-align: center;
+    line-height: 31px;
+    color:#222;
+}
+.bottom .code #refresh:hover{
+    cursor: pointer;
+}
+.bottom .phoneCode{
+    margin-left:72px;
+}
+.bottom .phoneCode #importCode{
+    width: 120px;
+    border: solid 1px #ababab;
+    background-color: #f4f4f4;
+    height: 22px;
+}
+.bottom .hint1{
+    margin-left: 163px;
+    height:45px;
+}
+.bottom .hint1 p{
+    margin-top: 5px;
+    color: #999999;
+    font-size: 12px;
+}
+.bottom .sex{
+    margin-left: 85px;
+} 
+.bottom .hint2{
+    margin-left: 163px;
+    height: 34px;
+}
+.bottom .hint2 p{
+    color: #999999;
+    font-size: 12px;
+}
+.bottom .password{
+    margin-left: 85px;
+    width:325px;
+}
+.bottom .password input{
+    width: 220px;
+    border: solid 1px #ababab;
+    background-color: #f4f4f4;
+    height: 22px;
+}
+.password div{
+    float:right;
+    display: none;
+}
+.bottom .hint3{
+    margin-left: 163px;
+    height: 34px;
+}
+.bottom .hint3 p{
+    color: #999999;
+    font-size: 12px;
+}
+.bottom .hint4{
+    margin-left: 163px;
+    height: 34px;
+}
+.bottom .hint4 p{
+    color: #999999;
+    font-size: 12px;
+}
+.bottom .qRegister{
+    margin:10px 0 0 320px;
+}
+.bottom .qRegister #QR{
+    width: 120px;
+    height: 35px;
+    background-color: #791268;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+.bottom img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.bottom .phone .phone_suc{
+    float:right;
+    display: none;
+}
+.bottom .phone .phone_no{
+    float:right;
+    display: none;
+}
+

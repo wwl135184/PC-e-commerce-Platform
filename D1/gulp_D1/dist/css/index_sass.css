@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/*index_bannerCSS*/
+.banner {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  position: relative; }
+  .banner ol {
+    width: 300px;
+    position: absolute;
+    left: 600px;
+    bottom: 15px;
+    z-index: 5; }
+    .banner ol li {
+      display: inline;
+      float: left;
+      margin-right: 10px;
+      background: #000;
+      border-radius: 50% 50%;
+      padding: 2px 6px;
+      color: #d94b01;
+      font-size: 12px; }
+
+.banner .active {
+  padding: 2px 6px;
+  color: #ffffff;
+  background: red; }
+
+.banner .banner_pic {
+  z-index: 1; }
+  .banner .banner_pic li {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    opacity: 0;
+    filter: alpha(opacity=0); }
+  .banner .banner_pic img {
+    width: 100%;
+    height: 400px; }
+  .banner .banner_pic .img1 {
+    opacity: 1;
+    filter: alpha(opacity=100); }
+  .banner .banner_pic .left {
+    width: 24px;
+    height: 41px;
+    position: absolute;
+    top: 180px;
+    z-index: 5;
+    display: none;
+    background: url(../index_images/white-left.png) no-repeat;
+    left: 0; }
+    .banner .banner_pic .left:hover {
+      cursor: pointer; }
+  .banner .banner_pic .right {
+    width: 24px;
+    height: 41px;
+    position: absolute;
+    top: 180px;
+    z-index: 5;
+    display: none;
+    background: url(../index_images/white-right.png) no-repeat;
+    right: 0; }
+    .banner .banner_pic .right:hover {
+      cursor: pointer; }
+
+.banner .sideBar {
+  position: absolute;
+  z-index: 10;
+  width: 205px;
+  height: 400px;
+  left: 50px;
+  background-color: rgba(48, 48, 48, 0.9); }
+  .banner .sideBar .sideBarNav {
+    padding-top: 2px;
+    position: relative; }
+    .banner .sideBar .sideBarNav li h3 {
+      height: 32px;
+      padding: 0 10px 0 0;
+      color: #fff;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 32px; }
+      .banner .sideBar .sideBarNav li h3 p {
+        display: inline-block;
+        width: 20px;
+        margin: 0 14px;
+        text-align: right;
+        vertical-align: middle;
+        text-decoration: none;
+        font-family: "iconfont";
+        font-size: 20px;
+        font-style: normal;
+        color: #737373; }
+      .banner .sideBar .sideBarNav li h3 a {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 12px;
+        color: #fff;
+        white-space: nowrap;
+        font-family: 'microsoft yahei'; }
+
+.banner .sideBarRight {
+  position: absolute;
+  top: 0px;
+  left: 205px;
+  width: 1024px;
+  height: 400px;
+  border: 0;
+  zoom: 1;
+  -webkit-box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  display: none; }
+
+.banner .sideBarRight .sideBarRight_pic {
+  float: left;
+  margin: 50px 0 0 60px;
+  padding: 0 20px 0 20px;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.2); }
+  .banner .sideBarRight .sideBarRight_pic img {
+    width: 200px;
+    height: 200px; }
+  .banner .sideBarRight .sideBarRight_pic span a {
+    font-size: 16px;
+    line-height: 100px;
+    color: #222; }
+
+/*网页dowNavCSS*/
+.dowNav {
+  width: 100%;
+  height: 60px;
+  background: #ececec;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+  .dowNav .dowNavCenter {
+    width: 1300px;
+    margin: 0 auto; }
+    .dowNav .dowNavCenter ul li {
+      float: left;
+      margin-top: 15px;
+      line-height: 18px; }
+      .dowNav .dowNavCenter ul li a {
+        padding: 0 60px;
+        line-height: 30px;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        color: #222; }
+      .dowNav .dowNavCenter ul li .backTop {
+        color: #fff;
+        background: #cd0074; }
+    .dowNav .dowNavCenter ul #back:hover {
+      cursor: pointer; }
+
+/*网页mainCSS*/
+.main {
+  width: 100%;
+  background: #f6f6f6;
+  overflow: hidden;
+  padding-bottom: 25px; }
+  .main .mainCenter {
+    width: 1200px;
+    margin: 0 auto; }
+  .main .main_title img {
+    display: inline-block;
+    margin-left: 15px; }
+
+.main .mainCenter ul li {
+  padding: 25px 0 0 0;
+  float: left; }
+  .main .mainCenter ul li .main_pic {
+    width: 566px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    padding: 277px 0 25px 0; }
+    .main .mainCenter ul li .main_pic img {
+      margin: 5px;
+      width: 555px;
+      height: 240px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2; }
+    .main .mainCenter ul li .main_pic h5 {
+      font-size: 17px;
+      color: #1d2127; }
+    .main .mainCenter ul li .main_pic:hover h5 {
+      color: red; }
+
+.main .mainCenter ul .main_li1 {
+  margin-right: 33px; }
+
+.main .mainCenter ul .main_li2 {
+  margin-left: 33px; }
+
+/*网页originalCSS*/
+.original {
+  width: 100%;
+  background: #f6f6f6;
+  overflow: hidden; }
+  .original .oriCenter {
+    width: 1200px;
+    margin: 0 auto; }
+
+.oriCenter .ori_title img {
+  display: inline-block;
+  margin: 10px 0 0 0; }
+
+.original ul li {
+  margin: 10px 30px 35px 0px;
+  float: left; }
+  .original ul li .ori_main {
+    width: 370px;
+    height: 440px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    overflow: hidden; }
+    .original ul li .ori_main img {
+      width: 370px;
+      height: 365px; }
+    .original ul li .ori_main .masking {
+      height: 300px;
+      width: 370px;
+      position: absolute;
+      top: 0;
+      z-index: 5;
+      background: transparent; }
+    .original ul li .ori_main:hover .masking {
+      background: rgba(0, 0, 0, 0.5); }
+    .original ul li .ori_main .ori_text {
+      width: 370px;
+      height: 135px;
+      position: absolute;
+      bottom: -65px;
+      border-bottom: 5px solid #dedede;
+      background: #fff;
+      text-align: center;
+      display: block; }
+      .original ul li .ori_main .ori_text h3 a {
+        font-size: 16px;
+        color: #2c3e50;
+        line-height: 70px; }
+      .original ul li .ori_main .ori_text .p {
+        display: block; }
+      .original ul li .ori_main .ori_text .span1 {
+        font-size: 16px;
+        color: #cdc2c0; }
+      .original ul li .ori_main .ori_text .span2 {
+        font-size: 18px;
+        color: #ff0000;
+        line-height: 28px; }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>D1优尚---购物车</title>
+		<link rel="stylesheet" href="css/shoppingCart.css" type = "text/css"/>
+		<script src = "js/jquery-1.10.1.min.js"></script>
+		<script src = "js/jquery.cookie.js"></script>
+		<script src = "js/shoppingCart.js"></script>
+	</head>
+	<body>
+		<!--网页头部-->
+		<div class = "head">
+			<div class = "headCenter">
+				<span class = "headNav">
+					<a href="#">帮助中心</a>
+				</span>
+				<span class = "showWelcome">
+				你好，欢迎来到D1购物，请&nbsp;
+					<a href = "enter.html">登入</a>&nbsp;或&nbsp;
+					<a href="register.html">注册</a>
+				</span>
+			</div>
+		</div>
+		<!--网页logo-->
+		<div class = "logo">
+			<div class = "logo_pic">
+				<img src="shoppingCart_images/sc_logo.jpg"/>
+			</div>
+		</div>
+		<!--网页main部分-->
+		<div class = "main">
+			<div class = "main_content">
+				<div class = "car_title">
+					<h5>我挑选的商品清单</h5>
+				</div>
+				<div class = "car_tip">
+					<p>温馨提示：1.选购清单中的商品无法保留库存，请您及时结算。2.商品价格、赠品及库存将以订单提交时为准。</p>
+				</div>
+				<div class = "goods_list">
+					<p class = "notCart">如果您上次退出时，购物车中有商品，那么商品已自动保存，<a href="enter.html">请登入后查看>></a></p>
+					<div class = "haveCart">
+						<p class = "title">如下商品，由D1优尚网负责发货</p>
+						<div class = "haveCart_type">
+							<ul>
+								<li class = "serial_number">商品名称/编号</li>
+								<li class = "specification">规格</li>
+								<li class = "VIP">会员价</li>
+								<li class = "closing">成交价</li>
+								<li class = "number">数量</li>
+								<li class = "Subtotal">小计</li>
+							</ul>
+						</div>
+						<div class = "shopping_details"></div>
+						<div class = "statistics">
+							<span class = "total">购物车总计：<span class = "statistics_num">1</span>件</span>
+							<span class = "money">应付金额：<span class = "statistics_price">217</span>元</span>
+						</div>
+						<div class = "settle_accounts">
+							<a class = "empty">×清空购物车</a>
+							<a href="#" class = "continue_shopping"><img src="shoppingCart_images/sc_jxgw.gif"/></a>
+							<a href="#" class = "DLTL"><img src="shoppingCart_images/sc_ljjs.gif"/></a>
+						</div>
+					</div>
+				</div>
+				<div class = "mstext">
+					<p>【免运费规则】</p>
+					<p>1. 在线支付、微信支付：实际支付金额满88元免运费；不满足条件时，每单收取5元运费。</p>
+					<p>2 .货到付款：支付金额超过88元的订单支持货到付款。货到付款免运费</p>
+				</div>
+			</div>
+		</div>
+		<!--清空购物车成功-->
+		<div class = "add_success">
+			<a href="shoppingCart.html">
+				<img src="detailpage_images/add_success.jpg"/>
+			</a>
+			<span>清空购物车成功！</span>
+			<input type="button" value = "确定"/>
+		</div>
+	</body>
+</html>

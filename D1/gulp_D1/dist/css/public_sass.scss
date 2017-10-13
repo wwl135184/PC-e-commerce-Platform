@@ -1,0 +1,436 @@
+html,body,div,span,ul,li,b,img,h5,a,input,dl,dt,dd,h1,h2,h3,h4{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:0;
+}
+i{
+	font-style:normal;
+}
+/*网页头部css*/
+$width:100%;
+body{
+	width:$width;
+}
+.head{
+	width:$width;
+	height:30px;
+	background:#f7f7f7;
+}
+$main_width:1300px;
+.headercenter{
+	width:$main_width;
+	margin:0 auto;
+	border-top:1px solid #fff;
+}
+.showWelcome{
+	display:block;
+	width:440px;
+	font-size:12px;
+	line-height:18px;
+	color:#222;
+	float:left;
+		a{
+			color:#8cc341;
+		}
+}
+.smallNav{
+	width:520px;
+	float:right;
+	li{
+		float:left;
+		padding:0 15px;
+		font-size:12px;
+		line-height:18px;
+		a{
+			color:#797979;
+			&:hover{
+				color:#f35519;
+			}
+		}	
+	}
+	.phone{
+		padding-left:25px;
+		float:right;
+		position:relative;
+		height:30px;
+	}
+	.onLine{
+		padding-left:25px;
+		float:right;
+	}	
+}
+@mixin small-triangle{
+	position: absolute;
+    border-style: solid dashed dashed;
+    border-width: 5px;
+    border-color: #CCC transparent transparent;
+    overflow: hidden;
+    height: 0px;
+    width: 0px;
+}
+.smallNav .myAccount{
+	height:30px;
+	position:relative;
+	b{
+		@include small-triangle;
+		top: 13px;
+    	right: 0px;
+	}
+}
+.smallNav .myAccount .level{
+	width:80px;
+	background:#f7f7f7;
+	border:1px solid #222;
+	position:absolute;
+	top:29px;
+	z-index:10;
+	display:none;
+	li{
+		clear:both;
+		font-size:12px;
+		line-height:18px;
+		padding:5px 0 0 5px;
+		a{
+			color:#79797b;
+			&:hover{
+				color:#f35519;
+			}
+		}
+	}
+}
+.smallNav .phone .QRcode{
+	position: absolute;
+    left: 4px;
+    right: auto;
+    top: 30px;
+    width: 200px;
+    border: 1px solid #cfcfcf;
+    background-color: #fff;
+    display:none;
+    z-index: 5;
+    .QRcode1{
+		position: relative;
+	    padding: 15px 0;
+	    border-bottom: 1px solid #E7E7E7;
+	    .QRcode1_pic{
+			position: absolute;
+		    left: 10px;
+		    top: 12px;
+		    width: 75px;
+		    height: 75px;
+		    border: 1px solid #CCC;
+		    background-color: #F7F7F7;
+		    img{
+				width: 75px;
+			    height: 75px;
+			}
+		}
+		.QRcode1_text{
+			margin: 0 5px 0 90px;
+		    min-height: 70px;
+		    text-align: left;
+		    h5{
+				font-size: 12px;
+			    line-height: 12px;
+			    color: #666 !important;
+			    padding: 8px 0;
+			}
+			p{
+				line-height: 16px;
+			    color: #f0414e;
+			}
+		}
+	}
+}
+/*网页navCSS*/
+.nav{
+	width:$width;
+	padding:25px 0 80px 0;
+	.navCenter{
+		width:$main_width;
+		margin:0 auto;
+		.logo{
+			width:170px;
+			height:62px;
+			background:url(../index_images/index_iconnew.png) no-repeat -215px -148px;
+			float:left;
+		}
+	}
+}
+.nav .navCenter .nav_list{
+	padding-top: 20px;
+	float:left;
+	ul{
+		li{
+			width: 80px;
+		    height: 21px;
+		    text-align: center;
+		    float:left;
+			a{
+		    	color:#4b4b4b;
+		    }
+		    &:hover{
+		    	a{
+		    		color:#f35519;
+		    	}
+		    }
+		}
+	}
+	.home{
+		color:#f35519;
+	}
+}
+.nav .navCenter .nav_search{
+	height: 65px;
+    width: 400px;
+    padding-left:45px;
+    float: left;
+    .input{
+		margin-top:18px;
+		height: 32px;
+		border: 2px solid #f0414e;
+		width:326px;
+		background:#fff;
+	}
+	.input1{
+		height: 28px;
+		border:0;
+	   	width: 250px!important;
+	    color: #999;
+	    font-size: 12px;
+	    outline:none;
+	}
+	.input2{
+		background: #f0414e;
+	    height: 32px;
+	    width: 76px;
+	    border: 0;
+	    cursor: pointer;
+	   	color: #FFF;
+	    font-size: 16px;
+	}
+}
+.nav .navCenter .nav_pic{
+	height: 80px;
+    width: 208px;
+	margin-top:10px;
+	float:left;
+	img{
+		display: inline-block;
+	}
+}
+.nav .navCenter .shoppingCart{
+	position: relative;
+    width: 105px;
+    height: 27px;
+    font-size: 14px;
+    color: #000;
+    background: url(../index_images/index_iconnew.png) no-repeat 0px -274px;
+    padding-left: 45px;
+    padding-top:8px;
+    margin-top:18px;
+    color: #333333;
+    float:left;
+    a{
+		color: #222;
+		font-size: 14px;
+	}
+	span{
+		color:#f44236;
+	}
+	b{
+		@include small-triangle;
+		top: 16px;
+    	right: 8px;
+	}
+}
+.nav .navCenter .shoppingCart .CartShow{
+	font-size: 12px;
+	color: #5c5c5c;
+	z-index: 2000;
+	position: absolute;
+	border: #f0424e 2px solid;
+	background: #fff;
+	width: 407px;
+	top: 35px;
+	right: 0px;
+	opacity: 0;
+	filter:alpha(opacity=100);
+	.com{
+		background:#fff;
+		text-align:center;
+		font-size: 12px;
+		line-height: 60px;
+		.show_cart{
+			overflow: hidden;
+		}
+	} 
+}
+.cart_shopping{
+	overflow: hidden;
+	border-bottom: dashed 1px #ccc
+}
+.CartShow{
+	.pic{
+		float:left;
+		width:60px;
+		height:60px;
+		img{
+			width:50px;
+			height:50px;
+			padding: 5px;
+		}
+	}
+	.desc{
+		float:left;
+		width:248px;
+		font-size:12px;
+		line-height: 18px;
+		margin-top:10px;
+		text-align:left;
+		a{
+			color:#4b4b4b;
+			&:hover{
+				color:red;
+			}
+		}
+	}
+	.price{
+		color: red;
+		.i1{
+			color: red;
+		}
+		.i2{
+			color:#4b4b4b;
+		}
+	}
+	.cart{
+		overflow: hidden;
+		background: #f9f9f9;
+		font-size: 12px;
+		line-height: 48px;
+		padding-left:10px;
+		p{
+			line-height: 48px;
+			float: left;
+			color: #000;
+		}
+		img{
+			display: inline;
+			float:right;
+			margin:10px 20px 0 0;
+		}
+	}
+}
+.nav .navCenter .shoppingCart .CartShow .com span{
+	color: #000;
+}
+/*网页底部footCSS*/
+.foot{
+	width:$width;
+	background:#fff;
+	overflow:hidden;
+	padding-top:10px;
+	.footCenterTop{
+		width:1080px;
+		margin:10px auto;
+		border-top: 1px solid #DDD;
+		border-bottom: 1px solid #DDD;
+		padding:0 0 20px 0;
+		overflow:hidden;
+	}
+}
+.foot .footTop{
+	width:960px;
+	margin:20px auto;
+	.footTopt{
+		.zp{
+			display:inline-block;
+			width:160px;
+			height:50px;
+			margin-right:80px;
+			background:url(../index_images/index_iconnew.png) no-repeat 2px -76px;
+		}
+		.ps{
+			display:inline-block;
+			width:160px;
+			height:50px;
+			margin-right:80px;
+			background:url(../index_images/index_iconnew.png) no-repeat -159px -76px;
+		}
+		.aq{
+			display:inline-block;
+			width:160px;
+			height:50px;
+			margin-right:80px;
+			background:url(../index_images/index_iconnew.png) no-repeat -332px -76px;
+		}
+		.fw{
+			display:inline-block;
+			width:160px;
+			height:50px;
+			background:url(../index_images/index_iconnew.png) no-repeat -514px -76px;
+		}
+	}
+	.wx{
+		float:left;
+		width: 240px;
+	    height: 125px;
+	    margin-top:20px;
+	    background:url(../index_images/index_iconnew.png) no-repeat 0 -343px;
+	}
+}
+.foot .footTopb dl{
+	float: left;
+    margin: 20px 40px 0 0;
+    dt{
+		font-size: 14px;
+	    font-weight: bold;
+	    margin-bottom: 10px;
+	}
+	dd{
+		font-size: 12px;
+		line-height: 24px;
+		a{
+			color: #818181;
+			&:hover{
+				color: #aa2e44;
+			}
+		}
+	}
+}
+.foot .footCenterBottom{
+	width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    color: #7b7b7b;
+    line-height: 24px;
+    padding-bottom:75px;
+    p{
+		font-size:12px;
+		text-align: left;
+		 a{
+			margin: 0 5px;
+			color: #222;
+			&:hover{
+				color: #aa2e44;
+			}
+		}
+	}
+}
+.foot .footCenterBottom .foot_pic a{
+	margin:0 5px;
+}
+.foot .footCenterBottom .foot_text{
+	font-size: 12px;
+	color: #222;
+}
